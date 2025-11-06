@@ -10,31 +10,20 @@ Este proyecto analiza los patrones de operación de los operadores de un Call Ce
 
 ## 📊 Datasets Utilizados
 - **telecom_dataset_us.csv**:
-user_id: ID de la cuenta de cliente
-
-date: fecha en la que se recuperaron las estadísticas  
-
-direction: "dirección" de llamada (out para saliente, in para entrante)  
-
-internal: si la llamada fue interna (entre los operadores de un cliente o clienta)  
-
-operator_id: identificador del operador  
-
-is_missed_call: si fue una llamada perdida  
-
-calls_count: número de llamadas  
-
-call_duration: duración de la llamada (sin incluir el tiempo de espera)  
-
-total_call_duration: duración de la llamada (incluido el tiempo de espera)  
+- user_id: ID de la cuenta de cliente
+- date: fecha en la que se recuperaron las estadísticas  
+- direction: "dirección" de llamada (out para saliente, in para entrante)  
+- internal: si la llamada fue interna (entre los operadores de un cliente o clienta)  
+- operator_id: identificador del operador  
+- is_missed_call: si fue una llamada perdida  
+- calls_count: número de llamadas  
+- call_duration: duración de la llamada (sin incluir el tiempo de espera)  
+- total_call_duration: duración de la llamada (incluido el tiempo de espera)  
 
 - **telecom_clients_us.csv**:
-user_id: ID de usuario/a
-
-tariff_plan: tarifa actual de la clientela  
-
-date_start: fecha de registro de la clientela  
-
+- user_id: ID de usuario/a
+- tariff_plan: tarifa actual de la clientela  
+- date_start: fecha de registro de la clientela  
 
 ## 🔧 Tecnologías
 Entorno de desarrollo:
