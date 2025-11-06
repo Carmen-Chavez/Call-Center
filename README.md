@@ -4,23 +4,36 @@
 Este proyecto analiza los patrones de operación de los operadores de un Call Center. Se examinan 5 datasets para identificar tendencias de consumo, horarios de mayor actividad y productos más populares.
 
 ## 🎯 Objetivos
-- Limpiar y procesar datos de transacciones de e-commerce
-- Identificar patrones de compra por horario y día de la semana
-- Analizar la relación entre productos, pasillos y departamentos
-- Detectar y corregir inconsistencias en los datos
+-Lleva a cabo el análisis exploratorio de datos 
+- Identificar operadores ineficaces
+- Prueba las hipótesis estadísticas
+
 
 ## 📊 Datasets Utilizados
-- **orders.csv**: Información de pedidos (fecha, hora, usuario)
-- **products.csv**: Catálogo de productos
-- **order_products.csv**: Relación pedidos-productos
-- **aisles.csv**: Información de pasillos
-- **departments.csv**: Información de departamentos
+- **telecom_dataset_us.csv**:
+user_id: ID de la cuenta de cliente
+date: fecha en la que se recuperaron las estadísticas
+direction: "dirección" de llamada (out para saliente, in para entrante)
+internal: si la llamada fue interna (entre los operadores de un cliente o clienta)
+operator_id: identificador del operador
+is_missed_call: si fue una llamada perdida
+calls_count: número de llamadas
+call_duration: duración de la llamada (sin incluir el tiempo de espera)
+total_call_duration: duración de la llamada (incluido el tiempo de espera)
+
+- **telecom_clients_us.csv**:
+user_id: ID de usuario/a
+tariff_plan: tarifa actual de la clientela
+date_start: fecha de registro de la clientela
+
 
 ## 🔧 Tecnologías
-- Python 3.8+
+Entorno de desarrollo:
+- Jupyter Notebook
+- Python 3.9.19
+### Líbrerias:
 - Pandas
 - Matplotlib
-- Jupyter Notebook
 
 ## 📈 Principales Hallazgos
 - Los pedidos se concentran entre las 10:00 y 16:00 horas
